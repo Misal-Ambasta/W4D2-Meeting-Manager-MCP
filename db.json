@@ -1,0 +1,1640 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Sarah Chen",
+      "email": "sarah.chen@company.com",
+      "timezone": "America/New_York",
+      "working_hours": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "preferences": {
+        "max_meetings_per_day": 6,
+        "preferred_meeting_duration": 30,
+        "break_between_meetings": 15,
+        "no_meetings_before": "09:00",
+        "no_meetings_after": "17:00"
+      }
+    },
+    {
+      "id": "user_002",
+      "name": "Raj Patel",
+      "email": "raj.patel@company.com",
+      "timezone": "Asia/Kolkata",
+      "working_hours": {
+        "start": "10:00",
+        "end": "18:00"
+      },
+      "preferences": {
+        "max_meetings_per_day": 5,
+        "preferred_meeting_duration": 45,
+        "break_between_meetings": 10,
+        "no_meetings_before": "10:00",
+        "no_meetings_after": "18:00"
+      }
+    },
+    {
+      "id": "user_003",
+      "name": "Emma Wilson",
+      "email": "emma.wilson@company.com",
+      "timezone": "Europe/London",
+      "working_hours": {
+        "start": "08:30",
+        "end": "16:30"
+      },
+      "preferences": {
+        "max_meetings_per_day": 4,
+        "preferred_meeting_duration": 60,
+        "break_between_meetings": 20,
+        "no_meetings_before": "08:30",
+        "no_meetings_after": "16:30"
+      }
+    },
+    {
+      "id": "user_004",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@company.com",
+      "timezone": "America/Los_Angeles",
+      "working_hours": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "preferences": {
+        "max_meetings_per_day": 7,
+        "preferred_meeting_duration": 30,
+        "break_between_meetings": 5,
+        "no_meetings_before": "09:00",
+        "no_meetings_after": "17:00"
+      }
+    },
+    {
+      "id": "user_005",
+      "name": "Maria Garcia",
+      "email": "maria.garcia@company.com",
+      "timezone": "Europe/Madrid",
+      "working_hours": {
+        "start": "09:30",
+        "end": "17:30"
+      },
+      "preferences": {
+        "max_meetings_per_day": 5,
+        "preferred_meeting_duration": 45,
+        "break_between_meetings": 15,
+        "no_meetings_before": "09:30",
+        "no_meetings_after": "17:30"
+      }
+    },
+    {
+      "id": "user_006",
+      "name": "David Kim",
+      "email": "david.kim@company.com",
+      "timezone": "Asia/Seoul",
+      "working_hours": {
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "preferences": {
+        "max_meetings_per_day": 6,
+        "preferred_meeting_duration": 30,
+        "break_between_meetings": 10,
+        "no_meetings_before": "09:00",
+        "no_meetings_after": "18:00"
+      }
+    },
+    {
+      "id": "user_007",
+      "name": "Lisa Anderson",
+      "email": "lisa.anderson@company.com",
+      "timezone": "Australia/Sydney",
+      "working_hours": {
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "preferences": {
+        "max_meetings_per_day": 4,
+        "preferred_meeting_duration": 60,
+        "break_between_meetings": 30,
+        "no_meetings_before": "08:00",
+        "no_meetings_after": "16:00"
+      }
+    },
+    {
+      "id": "user_008",
+      "name": "Tom Brown",
+      "email": "tom.brown@company.com",
+      "timezone": "America/Chicago",
+      "working_hours": {
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "preferences": {
+        "max_meetings_per_day": 8,
+        "preferred_meeting_duration": 25,
+        "break_between_meetings": 5,
+        "no_meetings_before": "08:00",
+        "no_meetings_after": "16:00"
+      }
+    }
+  ],
+  "meetings": [
+    {
+      "id": "meeting_001",
+      "title": "Weekly Team Standup",
+      "description": "Weekly team sync and project updates",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_002",
+        "user_003",
+        "user_004"
+      ],
+      "start_time": "2024-07-01T14:00:00Z",
+      "end_time": "2024-07-01T14:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "weekly",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Project updates",
+        "Blockers discussion",
+        "Next week planning"
+      ],
+      "effectiveness_score": 9.0,
+      "created_at": "2024-06-25T10:00:00Z"
+    },
+    {
+      "id": "meeting_002",
+      "title": "Product Strategy Review",
+      "description": "Monthly product roadmap and strategy review",
+      "organizer": "user_003",
+      "participants": [
+        "user_001",
+        "user_003",
+        "user_005"
+      ],
+      "start_time": "2024-07-02T10:00:00Z",
+      "end_time": "2024-07-02T11:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "one-time",
+      "location": "Conference Room A",
+      "status": "confirmed",
+      "agenda": [
+        "Q3 roadmap review",
+        "Feature prioritization",
+        "Resource allocation"
+      ],
+      "effectiveness_score": 9.2,
+      "created_at": "2024-06-28T15:30:00Z"
+    },
+    {
+      "id": "meeting_003",
+      "title": "Client Presentation Prep",
+      "description": "Prepare for upcoming client presentation",
+      "organizer": "user_004",
+      "participants": [
+        "user_004",
+        "user_001",
+        "user_002"
+      ],
+      "start_time": "2024-07-02T16:00:00Z",
+      "end_time": "2024-07-02T17:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "one-time",
+      "location": "Virtual - Teams",
+      "status": "confirmed",
+      "agenda": [
+        "Presentation review",
+        "Demo rehearsal",
+        "Q&A preparation"
+      ],
+      "effectiveness_score": 7.8,
+      "created_at": "2024-06-30T12:15:00Z"
+    },
+    {
+      "id": "meeting_004",
+      "title": "Design System Workshop",
+      "description": "Collaborative session on design system updates",
+      "organizer": "user_005",
+      "participants": [
+        "user_005",
+        "user_003",
+        "user_006"
+      ],
+      "start_time": "2024-07-03T09:00:00Z",
+      "end_time": "2024-07-03T10:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "workshop",
+      "location": "Design Studio",
+      "status": "confirmed",
+      "agenda": [
+        "Component library review",
+        "Accessibility updates",
+        "Documentation"
+      ],
+      "effectiveness_score": 8.9,
+      "created_at": "2024-06-29T14:45:00Z"
+    },
+    {
+      "id": "meeting_005",
+      "title": "Engineering All-Hands",
+      "description": "Monthly engineering team all-hands meeting",
+      "organizer": "user_002",
+      "participants": [
+        "user_002",
+        "user_006",
+        "user_007",
+        "user_008"
+      ],
+      "start_time": "2024-07-03T13:00:00Z",
+      "end_time": "2024-07-03T14:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "monthly",
+      "location": "Main Auditorium",
+      "status": "confirmed",
+      "agenda": [
+        "Team updates",
+        "Technical presentations",
+        "Q&A session"
+      ],
+      "effectiveness_score": 7.5,
+      "created_at": "2024-06-20T11:00:00Z"
+    },
+    {
+      "id": "meeting_006",
+      "title": "1:1 - Sarah & Raj",
+      "description": "Weekly one-on-one meeting",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_002"
+      ],
+      "start_time": "2024-07-04T15:00:00Z",
+      "end_time": "2024-07-04T15:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "weekly",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Career development",
+        "Project feedback",
+        "Personal check-in"
+      ],
+      "effectiveness_score": 9.1,
+      "created_at": "2024-06-27T09:30:00Z"
+    },
+    {
+      "id": "meeting_007",
+      "title": "Sprint Planning",
+      "description": "Sprint 15 planning session",
+      "organizer": "user_006",
+      "participants": [
+        "user_006",
+        "user_002",
+        "user_007",
+        "user_008"
+      ],
+      "start_time": "2024-07-05T08:00:00Z",
+      "end_time": "2024-07-05T10:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "planning",
+      "location": "Conference Room B",
+      "status": "confirmed",
+      "agenda": [
+        "Sprint goals",
+        "Story estimation",
+        "Capacity planning"
+      ],
+      "effectiveness_score": 8.3,
+      "created_at": "2024-07-02T16:20:00Z"
+    },
+    {
+      "id": "meeting_008",
+      "title": "Marketing Campaign Review",
+      "description": "Q3 marketing campaign planning and review",
+      "organizer": "user_005",
+      "participants": [
+        "user_005",
+        "user_003",
+        "user_001"
+      ],
+      "start_time": "2024-07-05T12:00:00Z",
+      "end_time": "2024-07-05T13:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "review",
+      "location": "Marketing Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Campaign performance",
+        "Budget allocation",
+        "Next quarter planning"
+      ],
+      "effectiveness_score": 8.7,
+      "created_at": "2024-07-01T10:45:00Z"
+    },
+    {
+      "id": "meeting_009",
+      "title": "Technical Architecture Discussion",
+      "description": "Discuss microservices architecture improvements",
+      "organizer": "user_007",
+      "participants": [
+        "user_007",
+        "user_002",
+        "user_006"
+      ],
+      "start_time": "2024-07-08T06:00:00Z",
+      "end_time": "2024-07-08T07:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "technical",
+      "location": "Virtual - Teams",
+      "status": "confirmed",
+      "agenda": [
+        "Current architecture review",
+        "Scalability challenges",
+        "Migration plan"
+      ],
+      "effectiveness_score": 9.0,
+      "created_at": "2024-07-03T13:15:00Z"
+    },
+    {
+      "id": "meeting_010",
+      "title": "Customer Feedback Session",
+      "description": "Review customer feedback and plan improvements",
+      "organizer": "user_004",
+      "participants": [
+        "user_004",
+        "user_001",
+        "user_003",
+        "user_005"
+      ],
+      "start_time": "2024-07-08T17:00:00Z",
+      "end_time": "2024-07-08T18:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "feedback",
+      "location": "Customer Success Room",
+      "status": "confirmed",
+      "agenda": [
+        "Feedback analysis",
+        "Priority issues",
+        "Action items"
+      ],
+      "effectiveness_score": 8.4,
+      "created_at": "2024-07-05T14:30:00Z"
+    },
+    {
+      "id": "meeting_011",
+      "title": "Weekly Team Standup",
+      "description": "Weekly team sync and project updates",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_002",
+        "user_003",
+        "user_004"
+      ],
+      "start_time": "2024-07-08T14:00:00Z",
+      "end_time": "2024-07-08T14:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "weekly",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Project updates",
+        "Blockers discussion",
+        "Next week planning"
+      ],
+      "effectiveness_score": 8.2,
+      "created_at": "2024-06-25T10:00:00Z"
+    },
+    {
+      "id": "meeting_012",
+      "title": "UX Research Presentation",
+      "description": "Present findings from user research study",
+      "organizer": "user_003",
+      "participants": [
+        "user_003",
+        "user_005",
+        "user_001",
+        "user_004"
+      ],
+      "start_time": "2024-07-09T11:00:00Z",
+      "end_time": "2024-07-09T12:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "presentation",
+      "location": "Innovation Lab",
+      "status": "confirmed",
+      "agenda": [
+        "Research findings",
+        "User insights",
+        "Design recommendations"
+      ],
+      "effectiveness_score": 9.3,
+      "created_at": "2024-07-06T16:45:00Z"
+    },
+    {
+      "id": "meeting_013",
+      "title": "Budget Planning Workshop",
+      "description": "Q4 budget planning and allocation",
+      "organizer": "user_008",
+      "participants": [
+        "user_008",
+        "user_001",
+        "user_002",
+        "user_003"
+      ],
+      "start_time": "2024-07-09T14:00:00Z",
+      "end_time": "2024-07-09T16:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "workshop",
+      "location": "Executive Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Budget review",
+        "Resource allocation",
+        "Cost optimization"
+      ],
+      "effectiveness_score": 7.9,
+      "created_at": "2024-07-04T11:20:00Z"
+    },
+    {
+      "id": "meeting_014",
+      "title": "API Design Review",
+      "description": "Review new API specifications and endpoints",
+      "organizer": "user_006",
+      "participants": [
+        "user_006",
+        "user_007",
+        "user_002"
+      ],
+      "start_time": "2024-07-10T09:30:00Z",
+      "end_time": "2024-07-10T10:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "review",
+      "location": "Virtual - Teams",
+      "status": "confirmed",
+      "agenda": [
+        "API specification review",
+        "Security considerations",
+        "Documentation"
+      ],
+      "effectiveness_score": 8.6,
+      "created_at": "2024-07-07T15:10:00Z"
+    },
+    {
+      "id": "meeting_015",
+      "title": "Sales Strategy Meeting",
+      "description": "Q3 sales strategy and pipeline review",
+      "organizer": "user_004",
+      "participants": [
+        "user_004",
+        "user_001",
+        "user_005"
+      ],
+      "start_time": "2024-07-10T16:00:00Z",
+      "end_time": "2024-07-10T17:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "strategy",
+      "location": "Sales Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Pipeline review",
+        "Sales targets",
+        "Market analysis"
+      ],
+      "effectiveness_score": 8.1,
+      "created_at": "2024-07-08T12:30:00Z"
+    },
+    {
+      "id": "meeting_016",
+      "title": "1:1 - Emma & Maria",
+      "description": "Bi-weekly one-on-one meeting",
+      "organizer": "user_003",
+      "participants": [
+        "user_003",
+        "user_005"
+      ],
+      "start_time": "2024-07-11T13:00:00Z",
+      "end_time": "2024-07-11T13:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "bi-weekly",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Project updates",
+        "Career goals",
+        "Team feedback"
+      ],
+      "effectiveness_score": 9.4,
+      "created_at": "2024-06-28T10:15:00Z"
+    },
+    {
+      "id": "meeting_017",
+      "title": "Security Review Meeting",
+      "description": "Monthly security audit and compliance review",
+      "organizer": "user_007",
+      "participants": [
+        "user_007",
+        "user_002",
+        "user_006",
+        "user_008"
+      ],
+      "start_time": "2024-07-11T07:00:00Z",
+      "end_time": "2024-07-11T08:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "review",
+      "location": "Security Operations Center",
+      "status": "confirmed",
+      "agenda": [
+        "Security incidents",
+        "Compliance updates",
+        "Risk assessment"
+      ],
+      "effectiveness_score": 8.8,
+      "created_at": "2024-07-04T09:45:00Z"
+    },
+    {
+      "id": "meeting_018",
+      "title": "Product Demo Session",
+      "description": "Demo new features to stakeholders",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_003",
+        "user_004",
+        "user_005"
+      ],
+      "start_time": "2024-07-12T15:00:00Z",
+      "end_time": "2024-07-12T16:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "demo",
+      "location": "Demo Theater",
+      "status": "confirmed",
+      "agenda": [
+        "Feature demonstration",
+        "Stakeholder feedback",
+        "Next steps"
+      ],
+      "effectiveness_score": 8.9,
+      "created_at": "2024-07-09T11:40:00Z"
+    },
+    {
+      "id": "meeting_019",
+      "title": "DevOps Pipeline Review",
+      "description": "Review CI/CD pipeline improvements",
+      "organizer": "user_002",
+      "participants": [
+        "user_002",
+        "user_006",
+        "user_007"
+      ],
+      "start_time": "2024-07-12T12:00:00Z",
+      "end_time": "2024-07-12T13:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "technical",
+      "location": "Virtual - Teams",
+      "status": "confirmed",
+      "agenda": [
+        "Pipeline optimization",
+        "Deployment strategies",
+        "Monitoring setup"
+      ],
+      "effectiveness_score": 8.7,
+      "created_at": "2024-07-10T14:20:00Z"
+    },
+    {
+      "id": "meeting_020",
+      "title": "Client Onboarding Session",
+      "description": "Onboard new enterprise client",
+      "organizer": "user_004",
+      "participants": [
+        "user_004",
+        "user_001",
+        "user_008"
+      ],
+      "start_time": "2024-07-15T18:00:00Z",
+      "end_time": "2024-07-15T19:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "onboarding",
+      "location": "Client Meeting Room",
+      "status": "confirmed",
+      "agenda": [
+        "Welcome & introductions",
+        "Platform overview",
+        "Integration planning"
+      ],
+      "effectiveness_score": 9.1,
+      "created_at": "2024-07-11T16:30:00Z"
+    },
+    {
+      "id": "meeting_021",
+      "title": "Weekly Team Standup",
+      "description": "Weekly team sync and project updates",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_002",
+        "user_003",
+        "user_004"
+      ],
+      "start_time": "2024-07-15T14:00:00Z",
+      "end_time": "2024-07-15T14:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "weekly",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Project updates",
+        "Blockers discussion",
+        "Next week planning"
+      ],
+      "effectiveness_score": 8.3,
+      "created_at": "2024-06-25T10:00:00Z"
+    },
+    {
+      "id": "meeting_022",
+      "title": "Data Analytics Workshop",
+      "description": "Workshop on new analytics tools and processes",
+      "organizer": "user_008",
+      "participants": [
+        "user_008",
+        "user_002",
+        "user_006",
+        "user_007"
+      ],
+      "start_time": "2024-07-16T15:00:00Z",
+      "end_time": "2024-07-16T17:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "workshop",
+      "location": "Analytics Lab",
+      "status": "confirmed",
+      "agenda": [
+        "Tool demonstrations",
+        "Data visualization",
+        "Reporting setup"
+      ],
+      "effectiveness_score": 8.5,
+      "created_at": "2024-07-12T13:45:00Z"
+    },
+    {
+      "id": "meeting_023",
+      "title": "Quality Assurance Review",
+      "description": "Monthly QA process and metrics review",
+      "organizer": "user_005",
+      "participants": [
+        "user_005",
+        "user_003",
+        "user_006"
+      ],
+      "start_time": "2024-07-16T10:00:00Z",
+      "end_time": "2024-07-16T11:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "review",
+      "location": "QA Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Testing metrics",
+        "Quality improvements",
+        "Process optimization"
+      ],
+      "effectiveness_score": 8.2,
+      "created_at": "2024-07-13T09:15:00Z"
+    },
+    {
+      "id": "meeting_024",
+      "title": "Innovation Brainstorm",
+      "description": "Creative session for new product ideas",
+      "organizer": "user_003",
+      "participants": [
+        "user_003",
+        "user_001",
+        "user_005",
+        "user_004"
+      ],
+      "start_time": "2024-07-17T14:00:00Z",
+      "end_time": "2024-07-17T15:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "brainstorm",
+      "location": "Innovation Space",
+      "status": "confirmed",
+      "agenda": [
+        "Idea generation",
+        "Market opportunities",
+        "Feasibility assessment"
+      ],
+      "effectiveness_score": 9.0,
+      "created_at": "2024-07-14T11:30:00Z"
+    },
+    {
+      "id": "meeting_025",
+      "title": "Sprint Retrospective",
+      "description": "Sprint 15 retrospective and lessons learned",
+      "organizer": "user_006",
+      "participants": [
+        "user_006",
+        "user_002",
+        "user_007",
+        "user_008"
+      ],
+      "start_time": "2024-07-17T08:00:00Z",
+      "end_time": "2024-07-17T09:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "retrospective",
+      "location": "Agile Room",
+      "status": "confirmed",
+      "agenda": [
+        "What went well",
+        "What could improve",
+        "Action items"
+      ],
+      "effectiveness_score": 8.4,
+      "created_at": "2024-07-15T16:00:00Z"
+    },
+    {
+      "id": "meeting_026",
+      "title": "Partnership Discussion",
+      "description": "Explore potential strategic partnerships",
+      "organizer": "user_004",
+      "participants": [
+        "user_004",
+        "user_001",
+        "user_008"
+      ],
+      "start_time": "2024-07-18T16:30:00Z",
+      "end_time": "2024-07-18T17:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "strategy",
+      "location": "Executive Suite",
+      "status": "confirmed",
+      "agenda": [
+        "Partnership opportunities",
+        "Due diligence",
+        "Next steps"
+      ],
+      "effectiveness_score": 8.6,
+      "created_at": "2024-07-16T12:20:00Z"
+    },
+    {
+      "id": "meeting_027",
+      "title": "Mobile App Review",
+      "description": "Review mobile app performance and updates",
+      "organizer": "user_005",
+      "participants": [
+        "user_005",
+        "user_003",
+        "user_002"
+      ],
+      "start_time": "2024-07-18T09:00:00Z",
+      "end_time": "2024-07-18T10:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "review",
+      "location": "Mobile Dev Lab",
+      "status": "confirmed",
+      "agenda": [
+        "Performance metrics",
+        "User feedback",
+        "Update roadmap"
+      ],
+      "effectiveness_score": 8.7,
+      "created_at": "2024-07-15T14:45:00Z"
+    },
+    {
+      "id": "meeting_028",
+      "title": "Cloud Migration Planning",
+      "description": "Plan migration to new cloud infrastructure",
+      "organizer": "user_007",
+      "participants": [
+        "user_007",
+        "user_002",
+        "user_006"
+      ],
+      "start_time": "2024-07-19T06:30:00Z",
+      "end_time": "2024-07-19T08:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "planning",
+      "location": "Virtual - Teams",
+      "status": "confirmed",
+      "agenda": [
+        "Migration strategy",
+        "Timeline planning",
+        "Risk mitigation"
+      ],
+      "effectiveness_score": 8.9,
+      "created_at": "2024-07-17T10:15:00Z"
+    },
+    {
+      "id": "meeting_029",
+      "title": "Legal & Compliance Review",
+      "description": "Quarterly legal and compliance check",
+      "organizer": "user_008",
+      "participants": [
+        "user_008",
+        "user_001",
+        "user_004"
+      ],
+      "start_time": "2024-07-19T14:00:00Z",
+      "end_time": "2024-07-19T15:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "review",
+      "location": "Legal Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Compliance updates",
+        "Legal requirements",
+        "Policy reviews"
+      ],
+      "effectiveness_score": 7.8,
+      "created_at": "2024-07-16T15:30:00Z"
+    },
+    {
+      "id": "meeting_030",
+      "title": "User Experience Testing",
+      "description": "Conduct user testing sessions for new features",
+      "organizer": "user_003",
+      "participants": [
+        "user_003",
+        "user_005",
+        "user_001"
+      ],
+      "start_time": "2024-07-22T13:00:00Z",
+      "end_time": "2024-07-22T15:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "testing",
+      "location": "UX Lab",
+      "status": "confirmed",
+      "agenda": [
+        "User testing setup",
+        "Feedback collection",
+        "Results analysis"
+      ],
+      "effectiveness_score": 9.2,
+      "created_at": "2024-07-18T11:45:00Z"
+    },
+    {
+      "id": "meeting_031",
+      "title": "Weekly Team Standup",
+      "description": "Weekly team sync and project updates",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_002",
+        "user_003",
+        "user_004"
+      ],
+      "start_time": "2024-07-22T14:00:00Z",
+      "end_time": "2024-07-22T14:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "recurring",
+      "recurrence": "weekly",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Project updates",
+        "Blockers discussion",
+        "Next week planning"
+      ],
+      "effectiveness_score": 8.1,
+      "created_at": "2024-06-25T10:00:00Z"
+    },
+    {
+      "id": "meeting_032",
+      "title": "Database Optimization Workshop",
+      "description": "Workshop on database performance tuning",
+      "organizer": "user_006",
+      "participants": [
+        "user_006",
+        "user_007",
+        "user_002",
+        "user_008"
+      ],
+      "start_time": "2024-07-23T09:00:00Z",
+      "end_time": "2024-07-23T11:00:00Z",
+      "timezone": "UTC",
+      "meeting_type": "workshop",
+      "location": "Database Lab",
+      "status": "confirmed",
+      "agenda": [
+        "Performance analysis",
+        "Optimization techniques",
+        "Monitoring setup"
+      ],
+      "effectiveness_score": 8.8,
+      "created_at": "2024-07-20T13:30:00Z"
+    },
+    {
+      "id": "meeting_033",
+      "title": "Auto-Generated Meeting 33",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_003",
+      "participants": [
+        "user_006",
+        "user_001",
+        "user_008",
+        "user_005"
+      ],
+      "start_time": "2024-08-30T09:45:00Z",
+      "end_time": "2024-08-30T10:15:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "audit",
+      "location": "Executive Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Project walkthrough",
+        "Model results",
+        "Next steps"
+      ],
+      "effectiveness_score": 7.5,
+      "created_at": "2024-08-27T09:45:00Z"
+    },
+    {
+      "id": "meeting_034",
+      "title": "Auto-Generated Meeting 34",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_005",
+      "participants": [
+        "user_002",
+        "user_007",
+        "user_001",
+        "user_003",
+        "user_004"
+      ],
+      "start_time": "2024-08-24T19:45:00Z",
+      "end_time": "2024-08-24T20:45:00Z",
+      "timezone": "Europe/London",
+      "meeting_type": "audit",
+      "location": "Chicago Office",
+      "status": "confirmed",
+      "agenda": [
+        "Component library review",
+        "Accessibility updates",
+        "Documentation"
+      ],
+      "effectiveness_score": 8.3,
+      "created_at": "2024-08-23T19:45:00Z"
+    },
+    {
+      "id": "meeting_035",
+      "title": "Auto-Generated Meeting 35",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_007",
+      "participants": [
+        "user_001",
+        "user_007",
+        "user_004",
+        "user_005"
+      ],
+      "start_time": "2024-09-07T14:00:00Z",
+      "end_time": "2024-09-07T15:30:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "strategy",
+      "location": "Main Auditorium",
+      "status": "confirmed",
+      "agenda": [
+        "Financials",
+        "KPIs",
+        "Next quarter planning"
+      ],
+      "effectiveness_score": 8.0,
+      "created_at": "2024-09-04T14:00:00Z"
+    },
+    {
+      "id": "meeting_036",
+      "title": "Auto-Generated Meeting 36",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_001",
+      "participants": [
+        "user_007",
+        "user_003",
+        "user_008",
+        "user_002"
+      ],
+      "start_time": "2024-09-15T11:45:00Z",
+      "end_time": "2024-09-15T12:30:00Z",
+      "timezone": "Asia/Seoul",
+      "meeting_type": "workshop",
+      "location": "Innovation Lab",
+      "status": "confirmed",
+      "agenda": [
+        "Current architecture review",
+        "Scalability challenges",
+        "Migration plan"
+      ],
+      "effectiveness_score": 7.9,
+      "created_at": "2024-09-09T11:45:00Z"
+    },
+    {
+      "id": "meeting_037",
+      "title": "Auto-Generated Meeting 37",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_001",
+      "participants": [
+        "user_007",
+        "user_008"
+      ],
+      "start_time": "2024-09-11T01:00:00Z",
+      "end_time": "2024-09-11T01:30:00Z",
+      "timezone": "Asia/Seoul",
+      "meeting_type": "brainstorming",
+      "location": "Madrid Office",
+      "status": "confirmed",
+      "agenda": [
+        "Policy changes",
+        "Compliance",
+        "Q&A"
+      ],
+      "effectiveness_score": 8.1,
+      "created_at": "2024-09-09T01:00:00Z"
+    },
+    {
+      "id": "meeting_038",
+      "title": "Auto-Generated Meeting 38",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_007",
+      "participants": [
+        "user_002",
+        "user_005",
+        "user_004",
+        "user_006"
+      ],
+      "start_time": "2024-09-15T19:45:00Z",
+      "end_time": "2024-09-15T20:15:00Z",
+      "timezone": "Europe/London",
+      "meeting_type": "allhands",
+      "location": "Customer Success Room",
+      "status": "confirmed",
+      "agenda": [
+        "Project walkthrough",
+        "Model results",
+        "Next steps"
+      ],
+      "effectiveness_score": 8.8,
+      "created_at": "2024-09-08T19:45:00Z"
+    },
+    {
+      "id": "meeting_039",
+      "title": "Auto-Generated Meeting 39",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_006",
+      "participants": [
+        "user_008",
+        "user_004",
+        "user_003",
+        "user_001"
+      ],
+      "start_time": "2024-09-15T07:15:00Z",
+      "end_time": "2024-09-15T08:45:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "brainstorming",
+      "location": "Seoul HQ",
+      "status": "confirmed",
+      "agenda": [
+        "Career development",
+        "Project feedback",
+        "Personal check-in"
+      ],
+      "effectiveness_score": 8.3,
+      "created_at": "2024-09-11T07:15:00Z"
+    },
+    {
+      "id": "meeting_040",
+      "title": "Auto-Generated Meeting 40",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_005",
+      "participants": [
+        "user_004",
+        "user_008",
+        "user_001"
+      ],
+      "start_time": "2024-09-08T18:00:00Z",
+      "end_time": "2024-09-08T18:45:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "demo",
+      "location": "Seoul HQ",
+      "status": "confirmed",
+      "agenda": [
+        "Audit checklist",
+        "Roles & responsibilities",
+        "Timeline"
+      ],
+      "effectiveness_score": 9.1,
+      "created_at": "2024-09-04T18:00:00Z"
+    },
+    {
+      "id": "meeting_041",
+      "title": "Auto-Generated Meeting 41",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_007",
+      "participants": [
+        "user_008",
+        "user_005",
+        "user_001"
+      ],
+      "start_time": "2024-09-11T10:45:00Z",
+      "end_time": "2024-09-11T11:30:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "sync",
+      "location": "Customer Success Room",
+      "status": "confirmed",
+      "agenda": [
+        "Budget review",
+        "Resource allocation",
+        "Cost optimization"
+      ],
+      "effectiveness_score": 8.6,
+      "created_at": "2024-09-05T10:45:00Z"
+    },
+    {
+      "id": "meeting_042",
+      "title": "Auto-Generated Meeting 42",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_003",
+      "participants": [
+        "user_002",
+        "user_004"
+      ],
+      "start_time": "2024-08-25T09:45:00Z",
+      "end_time": "2024-08-25T11:15:00Z",
+      "timezone": "America/New_York",
+      "meeting_type": "onboarding",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Budget review",
+        "Resource allocation",
+        "Cost optimization"
+      ],
+      "effectiveness_score": 7.0,
+      "created_at": "2024-08-24T09:45:00Z"
+    },
+    {
+      "id": "meeting_043",
+      "title": "Auto-Generated Meeting 43",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_003",
+      "participants": [
+        "user_003",
+        "user_008",
+        "user_005"
+      ],
+      "start_time": "2024-08-31T10:00:00Z",
+      "end_time": "2024-08-31T10:45:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "update",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Budget review",
+        "Resource allocation",
+        "Cost optimization"
+      ],
+      "effectiveness_score": 7.3,
+      "created_at": "2024-08-28T10:00:00Z"
+    },
+    {
+      "id": "meeting_044",
+      "title": "Auto-Generated Meeting 44",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_008",
+      "participants": [
+        "user_003",
+        "user_006",
+        "user_007"
+      ],
+      "start_time": "2024-08-23T17:30:00Z",
+      "end_time": "2024-08-23T18:15:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "customer",
+      "location": "Madrid Office",
+      "status": "confirmed",
+      "agenda": [
+        "Audit checklist",
+        "Roles & responsibilities",
+        "Timeline"
+      ],
+      "effectiveness_score": 7.8,
+      "created_at": "2024-08-20T17:30:00Z"
+    },
+    {
+      "id": "meeting_045",
+      "title": "Auto-Generated Meeting 45",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_002",
+      "participants": [
+        "user_003",
+        "user_001",
+        "user_004"
+      ],
+      "start_time": "2024-09-18T03:30:00Z",
+      "end_time": "2024-09-18T04:15:00Z",
+      "timezone": "Asia/Kolkata",
+      "meeting_type": "sync",
+      "location": "Design Studio",
+      "status": "confirmed",
+      "agenda": [
+        "Team updates",
+        "Technical presentations",
+        "Q&A session"
+      ],
+      "effectiveness_score": 8.4,
+      "created_at": "2024-09-12T03:30:00Z"
+    },
+    {
+      "id": "meeting_046",
+      "title": "Auto-Generated Meeting 46",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_005",
+      "participants": [
+        "user_005",
+        "user_004",
+        "user_002"
+      ],
+      "start_time": "2024-09-18T22:15:00Z",
+      "end_time": "2024-09-18T23:15:00Z",
+      "timezone": "America/Chicago",
+      "meeting_type": "techtalk",
+      "location": "Virtual - Zoom",
+      "status": "confirmed",
+      "agenda": [
+        "Migration status",
+        "Issues",
+        "Next steps"
+      ],
+      "effectiveness_score": 9.2,
+      "created_at": "2024-09-17T22:15:00Z"
+    },
+    {
+      "id": "meeting_047",
+      "title": "Auto-Generated Meeting 47",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_004",
+      "participants": [
+        "user_008",
+        "user_003",
+        "user_002",
+        "user_001"
+      ],
+      "start_time": "2024-09-16T01:15:00Z",
+      "end_time": "2024-09-16T02:00:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "planning",
+      "location": "Sydney Office",
+      "status": "confirmed",
+      "agenda": [
+        "Pipeline review",
+        "Sales targets",
+        "Market analysis"
+      ],
+      "effectiveness_score": 8.0,
+      "created_at": "2024-09-09T01:15:00Z"
+    },
+    {
+      "id": "meeting_048",
+      "title": "Auto-Generated Meeting 48",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_005",
+      "participants": [
+        "user_003",
+        "user_006",
+        "user_002",
+        "user_001",
+        "user_005"
+      ],
+      "start_time": "2024-09-19T02:45:00Z",
+      "end_time": "2024-09-19T04:15:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "brainstorming",
+      "location": "London HQ",
+      "status": "confirmed",
+      "agenda": [
+        "Compliance overview",
+        "Action items",
+        "Q&A"
+      ],
+      "effectiveness_score": 9.3,
+      "created_at": "2024-09-13T02:45:00Z"
+    },
+    {
+      "id": "meeting_049",
+      "title": "Auto-Generated Meeting 49",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_003",
+      "participants": [
+        "user_008",
+        "user_002"
+      ],
+      "start_time": "2024-09-02T03:15:00Z",
+      "end_time": "2024-09-02T04:00:00Z",
+      "timezone": "Europe/London",
+      "meeting_type": "onboarding",
+      "location": "Innovation Lab",
+      "status": "confirmed",
+      "agenda": [
+        "Budget review",
+        "Resource allocation",
+        "Cost optimization"
+      ],
+      "effectiveness_score": 9.0,
+      "created_at": "2024-08-27T03:15:00Z"
+    },
+    {
+      "id": "meeting_050",
+      "title": "Auto-Generated Meeting 50",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_001",
+      "participants": [
+        "user_002",
+        "user_007",
+        "user_004",
+        "user_006"
+      ],
+      "start_time": "2024-08-29T22:30:00Z",
+      "end_time": "2024-08-29T23:30:00Z",
+      "timezone": "Asia/Kolkata",
+      "meeting_type": "deepdive",
+      "location": "Design Studio",
+      "status": "confirmed",
+      "agenda": [
+        "Campaign performance",
+        "Budget allocation",
+        "Next quarter planning"
+      ],
+      "effectiveness_score": 8.2,
+      "created_at": "2024-08-25T22:30:00Z"
+    },
+    {
+      "id": "meeting_051",
+      "title": "Auto-Generated Meeting 51",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_001",
+      "participants": [
+        "user_007",
+        "user_005",
+        "user_002",
+        "user_001",
+        "user_006"
+      ],
+      "start_time": "2024-09-03T15:00:00Z",
+      "end_time": "2024-09-03T15:45:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "brainstorming",
+      "location": "Sales Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Migration status",
+        "Issues",
+        "Next steps"
+      ],
+      "effectiveness_score": 9.2,
+      "created_at": "2024-08-27T15:00:00Z"
+    },
+    {
+      "id": "meeting_052",
+      "title": "Auto-Generated Meeting 52",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_002",
+      "participants": [
+        "user_004",
+        "user_003",
+        "user_007",
+        "user_001"
+      ],
+      "start_time": "2024-08-27T18:00:00Z",
+      "end_time": "2024-08-27T19:30:00Z",
+      "timezone": "America/New_York",
+      "meeting_type": "briefing",
+      "location": "Sydney Office",
+      "status": "confirmed",
+      "agenda": [
+        "API specification review",
+        "Security considerations",
+        "Documentation"
+      ],
+      "effectiveness_score": 8.1,
+      "created_at": "2024-08-21T18:00:00Z"
+    },
+    {
+      "id": "meeting_053",
+      "title": "Auto-Generated Meeting 53",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_007",
+      "participants": [
+        "user_005",
+        "user_003",
+        "user_006",
+        "user_002",
+        "user_008"
+      ],
+      "start_time": "2024-09-04T22:00:00Z",
+      "end_time": "2024-09-04T22:30:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "onboarding",
+      "location": "NYC HQ",
+      "status": "confirmed",
+      "agenda": [
+        "Financials",
+        "KPIs",
+        "Next quarter planning"
+      ],
+      "effectiveness_score": 9.4,
+      "created_at": "2024-09-03T22:00:00Z"
+    },
+    {
+      "id": "meeting_054",
+      "title": "Auto-Generated Meeting 54",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_002",
+      "participants": [
+        "user_007",
+        "user_008",
+        "user_001",
+        "user_004"
+      ],
+      "start_time": "2024-09-12T03:15:00Z",
+      "end_time": "2024-09-12T03:45:00Z",
+      "timezone": "Europe/London",
+      "meeting_type": "update",
+      "location": "Bangalore Office",
+      "status": "confirmed",
+      "agenda": [
+        "Introductions",
+        "Project overview",
+        "Q&A"
+      ],
+      "effectiveness_score": 7.8,
+      "created_at": "2024-09-06T03:15:00Z"
+    },
+    {
+      "id": "meeting_055",
+      "title": "Auto-Generated Meeting 55",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_003",
+      "participants": [
+        "user_002",
+        "user_001",
+        "user_006",
+        "user_003"
+      ],
+      "start_time": "2024-08-30T10:00:00Z",
+      "end_time": "2024-08-30T11:00:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "planning",
+      "location": "Main Auditorium",
+      "status": "confirmed",
+      "agenda": [
+        "Test results",
+        "Bug triage",
+        "Release plan"
+      ],
+      "effectiveness_score": 8.4,
+      "created_at": "2024-08-25T10:00:00Z"
+    },
+    {
+      "id": "meeting_056",
+      "title": "Auto-Generated Meeting 56",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_005",
+      "participants": [
+        "user_002",
+        "user_007",
+        "user_005",
+        "user_003",
+        "user_006"
+      ],
+      "start_time": "2024-09-08T07:45:00Z",
+      "end_time": "2024-09-08T08:15:00Z",
+      "timezone": "Asia/Seoul",
+      "meeting_type": "allhands",
+      "location": "Chicago Office",
+      "status": "confirmed",
+      "agenda": [
+        "Deployments",
+        "Monitoring",
+        "Incident response"
+      ],
+      "effectiveness_score": 7.6,
+      "created_at": "2024-09-06T07:45:00Z"
+    },
+    {
+      "id": "meeting_057",
+      "title": "Auto-Generated Meeting 57",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_005",
+      "participants": [
+        "user_001",
+        "user_008",
+        "user_006"
+      ],
+      "start_time": "2024-09-12T06:45:00Z",
+      "end_time": "2024-09-12T07:45:00Z",
+      "timezone": "America/Chicago",
+      "meeting_type": "planning",
+      "location": "Virtual - Teams",
+      "status": "confirmed",
+      "agenda": [
+        "Presentation review",
+        "Demo rehearsal",
+        "Q&A preparation"
+      ],
+      "effectiveness_score": 8.6,
+      "created_at": "2024-09-09T06:45:00Z"
+    },
+    {
+      "id": "meeting_058",
+      "title": "Auto-Generated Meeting 58",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_008",
+      "participants": [
+        "user_004",
+        "user_001",
+        "user_005",
+        "user_002",
+        "user_006"
+      ],
+      "start_time": "2024-09-03T02:15:00Z",
+      "end_time": "2024-09-03T02:45:00Z",
+      "timezone": "Australia/Sydney",
+      "meeting_type": "brainstorming",
+      "location": "Executive Conference Room",
+      "status": "confirmed",
+      "agenda": [
+        "Test results",
+        "Bug triage",
+        "Release plan"
+      ],
+      "effectiveness_score": 7.2,
+      "created_at": "2024-08-30T02:15:00Z"
+    },
+    {
+      "id": "meeting_059",
+      "title": "Auto-Generated Meeting 59",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_004",
+      "participants": [
+        "user_003",
+        "user_008"
+      ],
+      "start_time": "2024-09-08T06:15:00Z",
+      "end_time": "2024-09-08T06:45:00Z",
+      "timezone": "America/Chicago",
+      "meeting_type": "workshop",
+      "location": "Design Studio",
+      "status": "confirmed",
+      "agenda": [
+        "Pipeline status",
+        "Forecasts",
+        "Challenges"
+      ],
+      "effectiveness_score": 7.2,
+      "created_at": "2024-09-02T06:15:00Z"
+    },
+    {
+      "id": "meeting_060",
+      "title": "Auto-Generated Meeting 60",
+      "description": "This is an auto-generated meeting for testing purposes.",
+      "organizer": "user_002",
+      "participants": [
+        "user_008",
+        "user_001",
+        "user_004",
+        "user_002"
+      ],
+      "start_time": "2024-09-03T02:45:00Z",
+      "end_time": "2024-09-03T04:15:00Z",
+      "timezone": "Europe/Madrid",
+      "meeting_type": "update",
+      "location": "Chicago Office",
+      "status": "confirmed",
+      "agenda": [
+        "Architecture overview",
+        "Best practices",
+        "Q&A"
+      ],
+      "effectiveness_score": 8.8,
+      "created_at": "2024-08-28T02:45:00Z"
+    },
+    {
+      "id": "meeting_061",
+      "title": "AI Sync",
+      "description": "Weekly AI sync-up",
+      "organizer": "user_001",
+      "participants": [
+        "user_001",
+        "user_002"
+      ],
+      "start_time": "2024-08-01T10:00:00Z",
+      "end_time": "2024-08-01T10:30:00Z",
+      "timezone": "UTC",
+      "meeting_type": "one-time",
+      "location": "Virtual",
+      "status": "confirmed",
+      "agenda": [],
+      "effectiveness_score": 7.9,
+      "created_at": "2025-07-03T08:32:14Z"
+    }
+  ]
+}
