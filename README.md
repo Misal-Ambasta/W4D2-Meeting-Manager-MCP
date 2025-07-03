@@ -2,7 +2,17 @@
 
 ## Usage Guide
 
-Run the CLI:
+This project uses the MCP Inspector for development and debugging. You can run the CLI in two ways:
+
+**Recommended (with MCP Inspector):**
+
+```bash
+mcp dev main.py
+```
+
+This command launches the MCP Inspector, which provides a web-based interface for inspecting, testing, and debugging your MCP tools in real time. It is highly recommended for development and interactive testing.
+
+**Direct CLI (without Inspector):**
 
 ```bash
 python main.py
@@ -20,6 +30,9 @@ You will see a menu to:
 - List users/meetings
 
 Follow prompts to test each MCP tool interactively.
+
+### What is MCP Inspector?
+MCP Inspector is a development tool that allows you to visually inspect and test your MCP tools (Python functions decorated with @mcp.tool). It provides a local web UI for easier debugging, input/output inspection, and rapid iteration. Use `mcp dev main.py` to launch your tools in Inspector mode.
 
 ## Data Schema
 
